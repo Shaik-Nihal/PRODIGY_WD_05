@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image:url(sky.jpg) ;
+  }
+  
+  .container {
+    text-align: center;
+    background: lightblue;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(250, 0, 0, 0.981);
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  #locationInput {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  #weatherInfo {
+    margin-top: 20px;
+    font-size: 18px;
+  }
